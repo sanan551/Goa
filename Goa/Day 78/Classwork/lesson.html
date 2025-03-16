@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="text" id="myInput" placeholder="Enter your name">
+        <button onclick="myFunction()">Submit</button>
+    </form>
+    <p id="Username">Username</p>
+    <script>
+        function myFunction(){
+            let Inputvalue = document.getElementById("myInput").value;
+            let Username = document.getElementById("Username")
+            Username.textContent = Inputvalue;
+            console.log(Inputvalue);
+            
+        }
+    </script>
+
+</body>
+</html>
