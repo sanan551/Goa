@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+    background: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+.left {
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.left a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+.left a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Brush Script MT', cursive;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.right {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.right a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.links {
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.links a {
+    color: black;
+    text-decoration: underline;
+    margin: 0 12px;
+    cursor: pointer;
+}
+
+.links a:hover {
+    color: #555;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 60px;
+    border-radius: 6px;
+    object-fit: cover;
+    box-shadow: 0 6px 15px rgb(0 0 0 / 0.1);
+}
