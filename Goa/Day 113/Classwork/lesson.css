@@ -1,0 +1,19 @@
+:root {
+  --child-bg-color: #4caf50;
+  --child-text-color: white;
+  --child-padding: 20px;
+  --child-margin: 10px;
+  --child-border-radius: 8px;
+}
+
+body{
+    background-color: var(--backround-color, pink);
+}
+
+.child {
+  background-color: var(--child-bg-color);
+  color: var(--child-text-color);
+  padding: var(--child-padding);
+  border-radius: var(--child-border-radius);
+  text-align: center;
+}
