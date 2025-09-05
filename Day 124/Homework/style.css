@@ -1,0 +1,10 @@
+#box {
+    width: 200px;
+    height: 200px;
+    background: lightgray;
+    margin-top: 10px;
+}
+
+.sec {
+    margin-bottom: 20px;
+}

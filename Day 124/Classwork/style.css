@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+.slider {
+    text-align: center;
+}
+
+.slider img {
+    display: block;
+    margin: 0 auto 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.slider-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.slider-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background: #28a745;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.slider-buttons button:hover {
+    background: #1e7e34;
+}

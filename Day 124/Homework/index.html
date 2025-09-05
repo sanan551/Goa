@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="sec">
+        <form id="f">
+            <input type="text" id="n" placeholder="სახელი" required>
+            <input type="number" id="a" placeholder="ასაკი" required>
+            <button>დადასტურება</button>
+        </form>
+    </div>
+
+    <div class="sec">
+        <input type="password" id="p" placeholder="პაროლი">
+        <label><input type="checkbox" id="s"> ვაჩვენო პაროლი</label>
+        <button id="l">Login</button>
+    </div>
+
+    <div class="sec">
+        <span id="c">0</span><br>
+        <button id="plus">+1</button>
+        <button id="minus">-1</button>
+        <button id="r">Reset</button>
+    </div>
+
+    <div class="sec">
+        <div id="box"></div>
+        <button class="col" data-color="red">Red</button>
+        <button class="col" data-color="green">Green</button>
+        <button class="col" data-color="blue">Blue</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
