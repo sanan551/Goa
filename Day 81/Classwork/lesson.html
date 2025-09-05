@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox Check</title>
+</head>
+<body>
+
+    <input type="checkbox" id="input1">
+    <input type="checkbox" id="input2">
+    <button onclick="check()">Check</button>
+
+    <p id="resultText">Result Of The Operation Is : </p>
+
+    <script>
+        function check() {
+            let input1 = document.getElementById('input1').checked;
+            let input2 = document.getElementById('input2').checked;
+            
+            let result = input1 && input2; 
+            
+            let x =  document.getElementById('resultText');
+            x.textContent = result; 
+            
+                
+        }
+    </script>
+
+</body>
+</html>

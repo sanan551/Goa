@@ -1,0 +1,13 @@
+#Milioners {
+    border: solid;
+    border-collapse: collapse;
+}
+
+td {
+    border: solid;
+}
+
+th {
+    border: solid;
+    color: red;
+}

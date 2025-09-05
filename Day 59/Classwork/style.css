@@ -1,0 +1,46 @@
+#div1{
+    width: 150px;
+    height: 200px;
+    background-color: red;
+
+}
+
+#div1:active{
+    transform: translate(50px);
+}
+
+
+#div2{
+    width: 150px;
+    height: 200px;
+    background-color: rgb(187, 255, 0);
+
+}
+
+#div2:active{
+    transform: scale(1.5);
+}
+
+#div3{
+    width: 150px;
+    height: 200px;
+    background-color: rgb(21, 0, 255);
+}
+
+
+#div3:active{
+    transform: translate(100px, 100px);
+}
+
+
+
+#div4{
+    width: 150px;
+    height: 200px;
+    background-color: rgb(30, 255, 0);
+
+}
+
+#div4:active{
+    transform: rotate(-60deg);
+}

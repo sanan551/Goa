@@ -1,0 +1,16 @@
+.flex-wrap-shrink {
+    display: flex;
+}
+.flex-wrap-shrink p {
+    background-color: lightcoral;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+.wrap {
+    flex-wrap: wrap;  /* CSS-ში wrap გამოიყენება Flexbox ში, რათა განსაზღვროს, როგორ მოიქცნენ კონტეინერში ელემენტები, როდესაც ხელმისაწვდომი სივრცე ამოიწურება.  */
+}
+.shrink{
+    flex-shrink: 1; /*გამოიყენება Flexbox მოდელში და განსაზღვრავს, რამდენად უნდა შემცირდეს ელემენტი, როდესაც კონტეინერში ადგილი საკმარისი არ არის. */
+}
+

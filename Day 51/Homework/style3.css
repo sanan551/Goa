@@ -1,0 +1,24 @@
+.p1{
+    display: flex;
+    flex-shrink: 1;
+}
+
+.p2{
+    display: flex;
+    flex-shrink: 2;
+}
+
+.p3{
+    display: flex;
+    flex-shrink: 3;
+}
+
+.p4{
+    display: flex;
+    flex-shrink: 4;
+}
+
+.p5{
+    display: flex;
+    flex-shrink: 5;
+}

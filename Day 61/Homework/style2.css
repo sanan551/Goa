@@ -1,0 +1,22 @@
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(4, 0, 255);
+    animation-name: spin;
+    animation-duration: 2s;
+
+    
+}
+
+@keyframes spin {
+    0%{
+        
+    }
+    50% {
+      transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #131519;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #1f2630;
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+
+    text-align: start;
+    color: white;
+}
+.star {
+    
+    background-color: #262f38;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+    
+
+}
+.ratings {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+}
+.ratings button {
+    background-color: #262f38;
+    color: gray;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.submit {
+    background-color: #fc7613;
+    color: black;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12 px;
+    font-weight: bold;
+}
+.submit:hover {
+    background-color: #ff9b3f;
+}
+
+
+h3{
+    font-size: x-large;
+    margin-bottom: -5px;
+}
+
+p{
+    font-size: small;
+    color: gray;
+
+}

@@ -1,0 +1,27 @@
+.div1 {
+    display: flex;
+
+}
+
+#item1{
+    flex-grow: 1;   /*flex grow ზრდის ელემენტების სიგანეს */
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 2px solid  black;
+}
+
+#item2{
+    flex-grow: 2;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 2px solid  black;
+}
+#item3{
+    flex-grow: 3;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 2px solid  black;
+}

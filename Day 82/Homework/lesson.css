@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+nav {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding: 20px;
+    background-color: white;
+}
+
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul {
+    padding-top: 80px;
+    flex-direction: column;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    
+}
+
+
+
+h1 {
+    font-size: 60px;
+}
+
+.subscribe {
+    margin-top: 20px;
+}
+
+.subscribe input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.subscribe button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.image img {
+    position: absolute;
+    border-radius: 20px;
+    top: 100px;
+    left: 540px;
+    width: 450px;
+    height: 500px;
+}
+
+.events {
+    
+    position: absolute;
+    left: 160px;
+    top: 520px;
+    padding: 50px;
+    
+}
+
+h2 {
+    font-size: 28px;
+}

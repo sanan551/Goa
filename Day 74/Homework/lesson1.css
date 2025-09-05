@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    border: 10px solid black;
+    padding: 20px;
+}
+
+.left img, .right img {
+    width: 400px;
+    height: auto;
+}
+.header {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #b0302f;
+    margin-bottom: 10px;
+}
+p {
+
+    position: relative;
+    
+    font-size: 30px;
+    font-weight: bold;
+    color: #b0302f;
+    margin-top: 10px;
+}

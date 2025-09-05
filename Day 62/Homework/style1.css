@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+}
+
+
+
+.animated-square {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 16px;
+    animation: slideRotate 2s infinite;
+}
+
+@keyframes slideRotate {
+    0% {
+        transform: translateX(0) rotate(0deg);
+        
+        background-color: #4A90E2;
+    }
+    25% {
+        transform: translateX(50px) rotate(15deg);
+        
+        background-color: #7BAF51;
+    }
+    50% {
+        transform: translateX(100px) rotate(45deg);
+        
+        background-color: #F5A623;
+    }
+    75% {
+        transform: translateX(150px) rotate(75deg);
+        
+        background-color: #F8E71C;
+    }
+    100% {
+        transform: translateX(200px) rotate(90deg);
+        
+        background-color: yellow;
+    }
+}

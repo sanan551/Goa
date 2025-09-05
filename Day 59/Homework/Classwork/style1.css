@@ -1,0 +1,10 @@
+div{
+    width: 150px;
+    height: 200px;
+    background-color: red;
+    transition: 1s;
+}
+
+div:active{
+    transform: translate(50px) scale(1.5) translate(100px, 100px) rotate(-60deg);
+ }

@@ -1,0 +1,25 @@
+#Milioners {
+    border: solid;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+td {
+    border: solid;
+    text-align: center;
+    text-shadow: 1px 2px 5px;
+}
+
+td:hover {
+    border: solid;
+    text-align: center;
+    text-shadow: 1px 2px 5px;
+    color: red;
+}
+
+
+th {
+    border: solid;
+       
+}

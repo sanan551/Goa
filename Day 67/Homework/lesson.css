@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+}
+nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #000;
+}
+.content {
+    font-size: 24px;
+    margin: 50px 0;
+}
+p {
+    text-align: start;
+    margin-left: 100px;
+}
+.gallery {
+    margin-top: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+.gallery img {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+}

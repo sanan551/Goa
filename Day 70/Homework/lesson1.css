@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: serif;
+    background-color: #002611;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.contact-btn {
+    background-color: #9fff3c;
+    color: #000;
+}
+
+.shop-btn {
+    background-color: #00ff00;
+    color: #000;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    padding: 0 40px;
+}
+
+.hero-content h1 {
+    font-size: 5rem;
+    font-weight: normal;
+    color: #fff;
+    text-align: left;
+}
+

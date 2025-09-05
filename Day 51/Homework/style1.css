@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cube1{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+
+.cube2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+
+
+.cube3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(21, 0, 255);
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+.cube4{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 255, 21);
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+.cube5{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 0, 217);
+    border: 2px solid black;
+    border-radius: 2px;
+}

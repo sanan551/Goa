@@ -1,0 +1,20 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    animation-name: spin;
+    animation-duration: 5s;
+}
+
+
+@keyframes spin{
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(2);
+    }
+    100% {
+        transform: scale(0.5);
+    }
+}

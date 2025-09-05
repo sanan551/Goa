@@ -1,0 +1,92 @@
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #0D1A2D;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .card {
+    background-color: #15273F;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 640px;
+    
+    padding: 20px;
+  }
+
+  
+
+  .image {
+    padding: 20px;
+    
+  }
+
+  .image img {
+    border-radius: 5px;
+  }
+
+.card .texts h1 {
+    color: white;
+    font-size: x-large;
+    padding-left: 15px;
+  }
+
+#p2 {
+    padding: 10px;
+    color: rgb(165, 165, 165);
+    padding-left: 15px;
+    
+}
+
+#ETH{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: large;
+    padding-left: 15px;
+    font-weight: 560;
+  }
+
+#ETH p {
+    color: #09FBF9;
+    padding-left: 10px;
+}
+    
+#ETH img{
+    padding-top: 12px;
+    height: 30px;
+}
+
+#creator{
+    display: flex;
+    color: white;
+    font-size: small;
+    padding-top: 15px;
+    padding-left: 15px;
+    
+  }
+
+
+#creator img{
+    
+    height: 30px;
+    width: 30px;
+    border: 2px white solid;
+    border-radius: 50px;
+}
+
+#p3 {
+    color: rgb(165, 165, 165);
+    padding-left: 10px;
+
+}
+
+#p4 {
+    padding-left: 5px;
+    color: white;
+}

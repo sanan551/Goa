@@ -1,0 +1,18 @@
+div{
+    
+    border: 1px solid rgb(189, 185,185);
+    box-shadow: 0 2px 4px black;
+    display: flex;
+}
+
+#item1{
+    flex-shrink: 1;  /* როცა ეკრანი იზრდება არ ემატება spaces  */
+    flex-grow: 1;
+}
+
+#item2{
+    flex-shrink: 2;    
+    flex-grow: 2;
+
+}
+

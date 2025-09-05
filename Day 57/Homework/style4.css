@@ -1,0 +1,13 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 5px black solid;
+    border-radius: 10px;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    background-image: url(pexels-pok-rie-33563-1905045.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

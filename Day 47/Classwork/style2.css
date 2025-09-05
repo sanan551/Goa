@@ -1,0 +1,13 @@
+
+.outer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px;
+    background-color: lightblue;
+}
+.inner {
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+}

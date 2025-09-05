@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    background-color: #1C1C45;
+    position: relative;
+}
+
+#ball1{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+    left: 300px;
+    animation: ball1 2s infinite ease;
+    
+    
+}
+
+#ball2{
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+    border-radius: 50%;
+    position: relative;
+    left: 100px;
+    animation: ball2 2.5s  infinite ;
+    animation-delay: 5ms;
+    
+}
+
+#ball3{
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    border-radius: 50%;
+    position: relative;
+    right: 100px;
+    animation: ball2 3s 1ms infinite ;
+}
+
+#ball4{
+    height: 50px;
+    width: 50px;
+    background-color: palevioletred;
+    border-radius: 50%;
+    position: relative;
+    right: 300px;
+    animation: ball2 2.7s infinite ;
+
+}
+
+@keyframes ball1{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+       transform: scale(1); 
+    }
+}
+
+@keyframes ball2{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+       transform: scale(1); 
+    }
+}
+
+@keyframes ball3{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+       transform: scale(1); 
+    }
+}

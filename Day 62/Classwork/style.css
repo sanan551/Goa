@@ -1,0 +1,86 @@
+body{
+    background: #213555;
+}
+
+
+#loader{
+    width: 50px;
+    height: 50px;
+    border: 5px solid white;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+
+    animation: loader 1.5s infinite ease;
+}
+
+@keyframes loader{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+.ball{
+    position: absolute;
+    left: 26px;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    animation-name: ball;    
+    animation-duration: 3.1s;
+    animation-delay: 0.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    
+}
+
+@keyframes ball{
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-45px);
+
+    }
+    100%{
+        transform: translateY(45px);
+    }
+}
+
+
+.ball2{
+    position: relative;
+    top: -42px;
+    left: 90px;
+    
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    animation-name: ball2;
+
+        
+    animation-duration: 3s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes ball2{
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateX(-72px);
+
+    }
+    100%{
+        transform: translateX(px);
+    }
+}

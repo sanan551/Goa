@@ -1,0 +1,7 @@
+p{
+    color: red;
+}
+
+p:hover{
+    color: rgb(0, 255, 72);
+}

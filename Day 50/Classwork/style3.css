@@ -1,0 +1,9 @@
+.flex-grow {
+    display: flex;
+}
+.flex-grow p {
+    background-color: lightyellow;
+    padding: 10px;
+    border: 1px solid orange;
+    flex-grow: 1; /* ყველა ელემენტი იზრდება პროპორციულად */
+}

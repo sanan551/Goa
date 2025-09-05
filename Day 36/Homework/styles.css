@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    font: 18px;
+    text-decoration: none;
+    
+
+}
+
+nav a:hover{
+    font-size: 20px;
+    color: yellow;
+    
+}
+
+.About {
+    text-align: center;
+}
+
+.About a {
+    font-size: x-large;
+    font-weight: 1000;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
