@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <h2> 1) Promise და Async ახსნა</h2>
+    <p>
+        // Promise - არის ობიექტი, რომელიც წარმოადგენს ასინქრონული ოპერაციის შედეგს <br>
+        // მაგალითად: მონაცემების წამოღება სერვერიდან. <br>
+        // async ფუნქცია - საშუალებას იძლევა "await"-ით დაველოდოთ promise-ს დასრულებას.<br>
+        // JavaScript არის single-threaded (აქვს ერთი thread) <br>
+        // ანუ ერთდროულად მხოლოდ ერთ საქმეს ასრულებს, დანარჩენები რიგში დგას Event Loop-ში.
+    </p>
+
+    <hr>
+
+    <h2>2) To-Do სია</h2>
+    <input type="text" id="taskInput" placeholder="ამოცანა">
+    <button id="addTask">Add</button>
+    <ul id="taskList"></ul>
+
+    <hr>
+
+    <h2>3) Toggle Theme</h2>
+    <button id="toggleTheme">Toggle Theme</button>
+
+    <hr>
+
+    <h2>4) Visit Counter</h2>
+    <span id="visitCount">0</span> visit(s)
+    <button id="resetVisits">Reset Visits</button>
+
+    <hr>
+
+    <h2>5) ფერის არჩევა</h2>
+    <select id="colorSelect">
+        <option value="">--აირჩიე ფერი--</option>
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+    </select>
+    <button id="clearPreference">Clear Preference</button>
+    <div id="colorPreview"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

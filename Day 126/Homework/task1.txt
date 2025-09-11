@@ -1,0 +1,15 @@
+JavaScript-ში ორი ძირითადი მეხსიერება არსებობს:
+
+Stack (სტეკი)
+
+აქ ინახება primitive ტიპის მონაცემები:
+string, number, boolean, null, undefined, symbol, bigint
+
+ეს მონაცემები ინახება პირდაპირ.
+
+Heap (ჰიპი)
+
+აქ ინახება reference ტიპის მონაცემები:
+object, array, function
+
+ანუ მეხსიერებაში ინახება ობიექტი/მასივი, მაგრამ ცვლადში მხოლოდ მისი მისამართი (reference).

@@ -1,0 +1,52 @@
+body {
+    font-family: Inter, Roboto, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #f5f7fb;
+    margin: 0
+}
+
+.card {
+    background: #fff;
+    padding: 28px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(20, 30, 60, 0.08);
+    width: 320px
+}
+
+h1 {
+    margin: 0 0 16px 0;
+    font-size: 22px;
+    color: #111
+}
+
+label {
+    display: block;
+    font-size: 13px;
+    margin-top: 10px;
+    color: #444
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    margin-top: 6px;
+    font-size: 14px
+}
+
+button {
+    margin-top: 16px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background: #2563eb;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer
+}
