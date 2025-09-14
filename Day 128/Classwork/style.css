@@ -1,0 +1,53 @@
+body {
+    background: #f5f7fa;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#playerChoice {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#playerChoice button {
+    background: #4f8cff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 32px;
+    margin: 0 12px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#playerChoice button:hover {
+    background: #3461b2;
+}
+
+#compChoice, #result {
+    font-size: 1.3rem;
+    margin: 12px 0;
+    color: #333;
+}
+
+#result {
+    font-weight: bold;
+    color: #4f8cff;
+}
+
+#pScore, #compScore {
+    display: inline-block;
+    font-size: 1.1rem;
+    margin: 0 18px;
+    padding: 8px 16px;
+    background: #eaf0fb;
+    border-radius: 6px;
+    color: #222;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(79,140,255,0.08);
+}

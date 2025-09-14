@@ -1,0 +1,50 @@
+<!-- Promise და ასინქრონიზაცია
+ რა არის Promise?
+
+Promise არის ობიექტი, რომელიც წარმოაჩენს ასინქრონული ოპერაციის მომავალ შედეგს.
+მას აქვს სამი მდგომარეობა:
+
+Pending – მოლოდინის რეჟიმი (საბოლოო პასუხი ჯერ არ არის მიღებული).
+
+Resolved (Fulfilled) – წარმატებით შესრულდა.
+
+Rejected – შეცდომა მოხდა.
+
+ცხოვრების მაგალითი:
+დაგიკვეთავს პიცა. რესტორანი გპირდება („promise“), რომ ან მიიღებ პიცას (resolved), ან ვერ მოგიტანენ (rejected), მანამდე კი ელოდები (pending).
+
+ რა არის ასინქრონიზაცია?
+
+ასინქრონიზაცია ნიშნავს, რომ კოდი არ ჩერდება ერთი ამოცანის დასრულებამდე, არამედ პარალელურად აგრძელებს მუშაობას.
+
+ცხოვრების მაგალითი:
+სარეცხ მანქანაში ტანსაცმელს რეცხავ (async task). შენ meanwhile შეგიძლია ფილმი უყურო, სანამ სარეცხი დასრულდება.
+
+ კოდი: async/await + fetch
+// ასინქრონული ფუნქცია
+
+
+async function getProducts() {
+  try {
+    const response = await fetch("https://api.escuelajs.co/api/v1/products");
+    
+    // თუ წარმატებით შესრულდა
+    if (!response.ok) {
+      throw new Error("ვერ მოხერხდა მონაცემების წამოღება");
+    }
+
+    const data = await response.json(); // JSON-ში გარდაქმნა
+    console.log("მონაცემები:", data);
+
+    // მაგალითი: პირველ 5 პროდუქტის ჩვენება
+    data.slice(0, 5).forEach(item => {
+      console.log(`${item.title} - ${item.price}$`);
+    });
+
+  } catch (error) {
+    // თუ reject მოხდა
+    console.error("შეცდომა:", error.message);
+  }
+}
+
+getProducts(); -->
